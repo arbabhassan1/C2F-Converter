@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">C2FConverter</string>
+    <string name="app_title">C2FConverter</string>
+    <string name="solagon">Temperature Converter App</string>
+    <string name="hint_text">45°C</string>
+    <string name="cMode">Celsius to Fahrenheit</string>
+    <string name="fMode">Fahrenheit to Celsius</string>
+    <string name="convertText">Convert</string>
+    <string name="modeChange">Mode</string>
+    <string name="tempHistory">Previous:</string>
+</resources>
