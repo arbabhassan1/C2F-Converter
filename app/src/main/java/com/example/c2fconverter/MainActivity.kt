@@ -30,6 +30,11 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    override fun onResume() {
+        super.onResume()
+        
+    }
+
 
 
     private  fun changemode(){
@@ -71,7 +76,7 @@ class MainActivity : AppCompatActivity() {
                     tempShow.text=fahrenheitTemp;
 
 
-        val arraySize=pereviousTempList.size;
+                     val arraySize=pereviousTempList.size;
                     if(arraySize<10){
                         pereviousTempList.add("$celsius °C to $fahrenheitTemp");
                     }else{
